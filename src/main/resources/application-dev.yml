@@ -1,0 +1,14 @@
+riot-api:
+  url: https://br1.api.riotgames.com/lol/summoner/v4
+  key: ${RIOT_API}
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: true
+  config:
+    import: optional:env.properties
+  data:
+    mongodb:
+      database: ${DB_DATABASE}
+      uri: ${DB_URI}
