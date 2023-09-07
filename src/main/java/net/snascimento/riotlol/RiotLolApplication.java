@@ -1,4 +1,4 @@
-package net.snacimento.riotlol;
+package net.snascimento.riotlol;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

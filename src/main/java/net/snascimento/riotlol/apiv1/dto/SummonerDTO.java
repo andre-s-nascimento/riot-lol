@@ -1,4 +1,4 @@
-package net.snacimento.riotlol.apiv1.dto;
+package net.snascimento.riotlol.apiv1.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
